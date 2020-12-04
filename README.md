@@ -9,11 +9,11 @@ Installation kaldi
   git clone https://github.com/kaldi-asr/kaldi.git kaldi --origin upstream  
   cd kaldi  
 Update  
-------  
-git pull  
+------    
+git pull    
   
 Installation  
-------------------------------------------- 
+------------    
 cd kaldi/tools  
 Check independance : extras/check_dependencies.sh 
 make TARGET=ARMV7     # pour Rasp berry Pi4 (environ 1h de compilation)  
